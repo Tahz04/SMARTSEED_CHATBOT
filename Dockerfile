@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 5005
 
-CMD ["sh", "-c", "rasa run actions & rasa run --enable-api --cors '*' --port 5005 --host 0.0.0.0 --endpoints endpoints.yml"]
+CMD ["sh", "-c", "rasa run actions & rasa run --enable-api --cors '*' --port 5005 --host 0.0.0.0 --endpoints endpoints.yml --connector socketio"]
