@@ -4,6 +4,8 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["rasa", "run", "--enable-api", "--cors", "*"]
+EXPOSE 5005
+
+CMD ["sh", "-c", "rasa run actions & rasa run --enable-api --cors '*' --port 5005 --host 0.0.0.0 --endpoints endpoints.yml"]
