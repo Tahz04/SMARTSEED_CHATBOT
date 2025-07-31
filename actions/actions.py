@@ -3,15 +3,6 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
 import json
-from sanic import Sanic
-from sanic.response import json
-
-app = Sanic.get_app("Rasa")
-
-@app.route("/stop", methods=["GET"])
-async def stop_server(request):
-    app.stop()
-    return json({"message": "Server stopping..."})
 
 class ActionHandleUnknown(Action):
     def name(self) -> Text:
