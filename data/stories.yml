@@ -1,0 +1,60 @@
+version: "3.1"
+
+stories:
+- story: greeting flow
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: goodbye flow
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: hygiene question flow
+  steps:
+  - intent: ask_hygiene
+  - action: utter_hygiene
+
+- story: time management question flow
+  steps:
+  - intent: ask_time_management
+  - action: utter_time_management
+
+- story: communication question flow
+  steps:
+  - intent: ask_communication
+  - action: utter_communication
+  - intent: thank
+  - action: utter_thank
+
+- story: emotion handling flow
+  steps:
+  - intent: ask_emotion
+  - action: utter_emotion
+
+- story: safety question flow
+  steps:
+  - intent: ask_safety
+  - action: utter_safety
+
+- story: responsibility question flow
+  steps:
+  - intent: ask_responsibility
+  - action: utter_responsibility
+
+- story: health question flow
+  steps:
+  - intent: ask_health
+  - action: utter_health
+
+- story: problem solving flow
+  steps:
+  - intent: ask_problem_solving
+  - action: utter_problem_solving
+
+- story: thank flow
+  steps:
+  - intent: thank
+  - action: utter_thank
+

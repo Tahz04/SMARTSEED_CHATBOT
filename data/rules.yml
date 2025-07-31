@@ -1,0 +1,33 @@
+version: "3.1"
+
+rules:
+- rule: respond to greetings
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: respond to goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: respond to thanks
+  steps:
+  - intent: thank
+  - action: utter_thank
+
+- rule: handle unknown phrase
+  steps:
+  - intent: out_of_scope
+  - action: action_handle_unknown
+  - action: utter_ask_explanation
+
+- rule: learn new phrase
+  steps:
+  - intent: explain_phrase
+  - action: action_learn_new_phrase
+
+- rule: handle bullying report
+  steps:
+  - intent: report_bullying
+  - action: action_handle_bullying

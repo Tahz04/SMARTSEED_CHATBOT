@@ -1,0 +1,150 @@
+version: "3.1"
+
+responses:
+  utter_greet:
+    - text: "Chào bé yêu! Tớ là Bút Bi - người bạn đồng hành của bé đây! 💖"
+    - text: "Bé ơi, tớ ở đây nè! Cần tớ giúp gì nào? 🌟"
+
+  utter_goodbye:
+    - text: "Tạm biệt bé! Nhớ thực hành những điều hay nhé! 🥰"
+    - text: "Hẹn gặp lại bé yêu! Cần gì cứ gọi tớ nha! ✨"
+
+  utter_hygiene:
+    - text: |
+        Bé ơi, giữ sạch sẽ là siêu năng lực đấy!
+        🧼 Rửa tay: Hát "Chúc mừng sinh nhật" 2 lần nàoo
+        🦷 Đánh răng: Sáng & tối như bạn Sâu Răng nhé!
+        🛁 Tắm gội: Mỗi ngày thơm như hoa! 🌸
+    - text: |
+        Nè bé yêu, nhớ những điều này nha:
+        1. Cắt móng tay mỗi tuần
+        2. Thay quần áo khi bẩn
+        3. Che miệng khi ho/hắt hơi
+        Tớ tin bé làm được! 💪
+
+  utter_time_management:
+    - text: |
+        Bé ơi, quản lý thời gian dễ lắm nè:
+        ⏰ Lập thời gian biểu như xếp hình
+        🎯 Ưu tiên việc quan trọng trước
+        ⏱️ Dùng đồng hồ báo thức vui nhộn
+        Tớ sẽ cùng bé thực hiện nhé!
+    - text: |
+        Để không bị trễ, bé nhớ:
+        1. Chuẩn bị đồ từ tối qua
+        2. Đặt báo thức sớm hơn 5 phút
+        3. Ăn sáng nhanh gọn
+        Bé thử xem, hiệu quả lắm đó! 🌈
+
+  utter_communication:
+    - text: |
+        Giao tiếp tốt là phép màu tình bạn đó bé!
+        👀 Nhìn vào mắt khi nói chuyện
+        💖 Nói "cảm ơn" khi được giúp
+        🙏 Nói "xin lỗi" khi mắc lỗi
+        🤫 Không ngắt lời người khác
+    - text: |
+        Khi muốn xin lỗi, bé nhớ:
+        1. Nhìn thẳng vào mắt bạn
+        2. Nói rõ lý do
+        3. Hứa sẽ cố gắng
+        Ví dụ: "Tớ xin lỗi vì làm đổ đồ của bạn..."
+
+  utter_emotion:
+    - text: |
+        Bé yêu ơi, khi buồn hãy:
+        1. Hít thở sâu: "Hít vào hoa thơm" - "Thở ra giận bay" 🌸
+        2. Ôm gấu bông thật chặt 🤗
+        3. Vẽ ra nỗi buồn rồi xé đi
+        4. Kể cho tớ hoặc bố mẹ nghe
+    - text: |
+        Nè bé, mọi người đều có lúc buồn:
+        ✏️ Viết ra 3 điều vui trong ngày
+        🎵 Nghe nhạc vui nhún nhảy
+        📞 Gọi cho bạn thân tâm sự
+        Tớ luôn ở đây với bé nha! 💕
+
+  utter_safety:
+    - text: |
+        Bé yêu nhớ quy tắc vàng nha:
+        🚫 Người lạ: Không đi theo dù cho kẹo/đồ chơi
+        🚸 Sang đường: Nắm tay người lớn, nhìn TRÁI-PHẢI-TRÁI
+        🏠 Nếu lạc: Đứng yên, gọi "BỐ/MẸ ƠI!" thật to
+    - text: |
+        Khi ở nhà một mình bé nhớ:
+        1. Không mở cửa cho người lạ
+        2. Không nghịch ổ điện
+        3. Gọi điện cho bố mẹ nếu cần
+        Tớ rất tự hào về bé! 🌟
+
+  utter_responsibility:
+    - text: |
+        Trách nhiệm là siêu năng lực đó bé!
+        🧸 Dọn đồ chơi sau khi chơi
+        📚 Tự giác làm bài tập
+        🐶 Cho thú cưng ăn đúng giờ
+        🏠 Giúp bố mẹ việc nhà phù hợp
+    - text: |
+        Bé có thể làm bảng việc nhà:
+        🌟 Gấp chăn mỗi sáng
+        🌟 Để giày đúng chỗ
+        🌟 Lau bàn ăn
+        Hoàn thành thì tự thưởng sticker nhé!
+
+  utter_health:
+    - text: |
+        Ăn uống lành mạnh giúp bé cao lớn!
+        🥦 Ăn đa dạng rau củ nhiều màu
+        💧 Uống 6 ly nước/ngày
+        🍬 Hạn chế đồ ngọt (1 lần/tuần)
+        🛌 Ngủ trước 21h để thông minh
+    - text: |
+        Nè bé yêu, nhớ:
+        🍎 Ăn sáng như vua
+        🥗 Ăn trưa như hoàng tử
+        🍽️ Ăn tối như người nghèo
+        Ngủ đủ giúp bé cao lớn! ✨
+
+  utter_problem_solving:
+    - text: |
+        Khi bị bắt nạt, bé nhớ:
+        1. Bình tĩnh, đứng thẳng người
+        2. Nhìn vào mắt bạn: "Dừng lại!"
+        3. Bỏ đi chỗ khác
+        4. Kể ngay với cô giáo
+        Tớ luôn ủng hộ bé! 💪
+    - text: |
+        Nếu làm sai bài tập, bé có thể:
+        1. Gạch chéo chỗ sai
+        2. Làm lại bên cạnh
+        3. Nhờ cô giáo giảng lại
+        4. Làm thêm bài tương tự
+        Sai là cơ hội để học hỏi bé nhé! 🌱
+
+  utter_thank:
+    - text: "Không có gì đâu bé yêu! Tớ rất vui khi giúp được bé! 💖"
+    - text: "Luôn sẵn sàng hỗ trợ bé bất cứ lúc nào! 🌈"
+
+  utter_default:
+    - text: "Tớ chưa hiểu ý bé lắm. Bé nói lại giúp tớ nhé! 🥺"
+    - text: "Bé ơi, tớ chưa rõ lắm. Bé hỏi về kỹ năng sống nhé: vệ sinh, an toàn, quản lý thời gian... 💡"
+
+utter_ask_explanation:
+- text: "Tớ chưa hiểu từ '{0}' này. Bé có thể giải thích giúp tớ được không? 💡"
+- text: "Bé ơi, tớ chưa biết về '{0}'. Bé dạy tớ với nhé! 🥺"
+
+utter_drowning_safety:
+- text: |
+    ⚠️ Cách phòng tránh đuối nước:
+    1. Không chơi gần ao/hồ một mình
+    2. Mặc áo phao khi đi bơi
+    3. Học bơi bài bản
+    4. Gọi 115 khi thấy người đuối nước
+
+utter_water_safety:
+- text: |
+    🌊 An toàn dưới nước:
+    1. Không bơi khi quá no/đói
+    2. Khởi động trước khi bơi
+    3. Chỉ bơi ở khu vực an toàn
+    4. Đi cùng người lớn

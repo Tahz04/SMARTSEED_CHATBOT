@@ -1,0 +1,139 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - chào cậu
+    - xin chào
+    - hello bé
+    - hi tớ
+    - chào buổi sáng ạ
+    - bé chào bạn
+    - có ai ở đó không?
+    - alo alo
+
+- intent: report_bullying
+  examples: |
+    - tớ bị [bạn Tú](person) bắt nạt
+    - [Nam](person) hay trêu tớ
+    - [Hoa](person) cấu véo tôi
+    - bị [lớp trưởng](person) đánh
+    - [Sơn](person) lấy đồ của tớ
+    - [bạn Minh](person) trêu tớ
+    - [thằng Hoàng](person) đánh tôi
+    - [chị Lan](person) cấu tớ
+
+- intent: goodbye
+  examples: |
+    - tạm biệt nhé
+    - bye bye
+    - hẹn gặp lại
+    - tớ đi đây
+    - bé đi ngủ đây
+    - thôi tớ đi nhé
+    - tạm biệt bút bi
+
+- intent: ask_safety
+  examples: |
+    - đuối nước
+    - cách phòng tránh đuối nước
+    - bé bị đuối nước phải làm sao?
+    - xử lý khi đuối nước
+    - dưới nước
+    - an toàn dưới nước
+    - bơi dưới nước thế nào?
+
+- intent: ask_hygiene
+  examples: |
+    - làm sao để giữ sạch sẽ?
+    - tại sao phải rửa tay?
+    - cách đánh răng đúng ạ?
+    - vệ sinh cá nhân gồm mấy bước?
+    - tớ nên tắm khi nào?
+    - bé phải làm gì để không hôi miệng?
+    - cắt móng tay mấy ngày một lần?
+
+- intent: ask_time_management
+  examples: |
+    - làm sao để không bị trễ học?
+    - cách lập thời gian biểu ạ
+    - bé phải làm gì để dậy sớm?
+    - làm thế nào để quản lý thời gian?
+    - tớ hay quên làm bài tập
+    - cách nhớ lịch học ạ
+    - làm sao để không bị muộn giờ?
+
+- intent: ask_communication
+  examples: |
+    - nói chuyện lịch sự là gì?
+    - cách xin lỗi khi làm sai ạ
+    - làm sao để cảm ơn bạn?
+    - bé phải làm gì khi muốn nói chuyện?
+    - tớ nên giao tiếp thế nào?
+    - cách từ chối lịch sự
+    - làm sao để kết bạn mới?
+
+- intent: ask_emotion
+  examples: |
+    - tớ buồn phải làm sao?
+    - bé giận bạn quá
+    - con cảm thấy cô đơn
+    - làm thế nào để vui hơn?
+    - tớ sợ ma phải làm sao?
+    - bé hay lo lắng
+    - cách kiểm soát cơn giận ạ
+
+- intent: ask_safety
+  examples: |
+    - gặp người lạ phải làm gì?
+    - sang đường thế nào cho an toàn?
+    - bé phải làm gì khi bị lạc?
+    - cách dùng điện an toàn ạ
+    - tớ không được làm gì khi ở nhà một mình?
+    - phải làm gì khi có người lạ rủ đi chơi?
+    - bé nên làm gì khi bị bạn đánh?
+
+- intent: ask_responsibility
+  examples: |
+    - tại sao phải dọn đồ chơi?
+    - cách chăm sóc thú cưng ạ
+    - bé phải làm gì giúp bố mẹ?
+    - cách nhớ việc nhà ạ
+    - bé nên tự giác làm gì?
+    - tại sao phải giữ lời hứa?
+
+- intent: ask_health
+  examples: |
+    - tại sao phải ăn rau?
+    - bé nên uống bao nhiêu nước?
+    - tớ không muốn ngủ sớm
+    - ăn nhiều kẹo có hại gì?
+    - cách để cao lớn hơn ạ
+    - tại sao phải ăn sáng?
+    - bé nên ăn gì để khỏe mạnh?
+
+- intent: ask_problem_solving
+  examples: |
+    - làm gì khi bị bắt nạt?
+    - cách giải quyết mâu thuẫn ạ
+    - tớ quên sách vở phải làm sao?
+    - bé làm sai bài tập rồi
+    - phải làm gì khi bị bạn nói xấu?
+    - cách xin lỗi bạn ạ
+    - tớ bị mất đồ dùng học tập
+
+- intent: thank
+  examples: |
+    - cảm ơn nhé
+    - cám ơn cậu
+    - bé cảm ơn
+    - tớ biết ơn bạn
+    - thanks bạn
+    - cảm ơn nhiều lắm
+    - mình rất biết ơn
+
+- intent: explain_phrase
+  examples: |
+    - bạn có thể giải thích rõ hơn không
+    - bạn nói vậy là sao
+    - giải thích lại giúp mình
